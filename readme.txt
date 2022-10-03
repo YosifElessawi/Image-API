@@ -18,7 +18,7 @@ III. Test:
 
 1) Endpoint was tested using Jasmine plus supertest.
 
-2) Both middlewares were tested validation; comparing the errors with the expected error of a faulty url and Image prrocessing; was test comparing the buffer of a test image with the buffer returned response to a given url.
+2) Both middlewares were tested validation; comparing the errors with the expected error of a faulty url and Image prrocessing; was tested comparing the buffer of a test image with the buffer returned response to a given url.
 Test urls:
 -'/api/resize?filename=&width=200&height=200' for validation
 -'/api/resize?filename=fjord&width=200&height=200' for resize process.
